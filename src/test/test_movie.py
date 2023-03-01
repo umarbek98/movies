@@ -49,9 +49,9 @@ def test_movie_average_rating():
     movie.reviews = [review]
     assert movie.average_rating() == 5
 
-def test_movie_highest_rating():
+def test_movie_highest_review():
     """
-    highest_rating() should return the rating object
+    highest_review() should return the rating object
     with the highest rating
     """
     movie = Movie("Cocaine Bear")
@@ -59,4 +59,4 @@ def test_movie_highest_rating():
     review_high = Review(viewer, movie, 5)
     review_low = Review(viewer, movie, 1)
     movie.reviews = [review_high, review_low]
-    assert movie.highest_rating() == review_high
+    assert movie.highest_review() == review_high
