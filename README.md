@@ -101,5 +101,5 @@ Write the following methods in the classes in the files provided. Feel free to b
 - `Movie average_rating()`
   - returns the average of all ratings for the `Movie` instance
   - to average ratings, add all ratings together and divide by the total number of ratings.
-- `Movie highest_rating()` 
-  - returns the `Review` instance with the highest average rating.
+- `Movie highest_review()` 
+  - returns the `Review` instance with the highest rating.
