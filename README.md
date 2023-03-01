@@ -76,6 +76,7 @@ Write the following methods in the classes in the files provided. Feel free to b
   - returns a list of `Review` instances associated with the `Viewer` instance.
 - `Viewer get_movies()`
   - returns a list of `Movie` instances reviewed by the `Viewer` instance.
+  - HINT: you can get the movies by iterating through the list of reviews
 
 #### Movie
 

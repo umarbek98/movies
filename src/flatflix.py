@@ -34,7 +34,7 @@ class Viewer:
     def has_reviewed(self, movie):
         pass
 
-    def rate_movie(self, rating):
+    def rate_movie(self, movie, rating):
         pass
 
 
