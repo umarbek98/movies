@@ -45,7 +45,7 @@ Write the following methods in the classes in the files provided. Feel free to b
 - `Movie __init__(self, title)`
   - `Movie` is initialized with a title (string)
 - `Movie get_title()`
-  - returns the `Movie`'s title
+  - returns the `Movie`'s title 
 
 #### Viewer
 
