@@ -91,7 +91,7 @@ Write the following methods in the classes in the files provided. Feel free to b
 #### Viewer
 
 - `Viewer has_reviewed(movie)`
-  - returns `true` if the `Viewer` has reviewed this `Movie` (if there is a `Review` instance that has this `Viewer` and `Movie`), returns `false` otherwise
+  - returns `True` if the `Viewer` has reviewed this `Movie` (if there is a `Review` instance that has this `Viewer` and `Movie`), returns `False` otherwise
 - `Viewer rate_movie(movie, rating)`
   - a `Movie` instance and a rating (int) are passed in as arguments
   - this method should create a new `Review` instance and attach it to the `Viewer` instance
